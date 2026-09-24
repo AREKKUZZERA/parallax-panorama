@@ -1,0 +1,7 @@
+{
+  "screen.parallaxpanorama.title": "Parallax Panorama Settings",
+  "option.parallaxpanorama.strength": "Mouse reaction: %s%%",
+  "option.parallaxpanorama.x_direction": "Horizontal direction: %s",
+  "option.parallaxpanorama.y_direction": "Vertical direction: %s",
+  "option.parallaxpanorama.reset": "Reset to defaults"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "parallaxpanorama",
+  "version": "${version}",
+  "name": "Parallax Panorama",
+  "description": "A lightweight parallax effect for the main menu panorama that follows the mouse cursor.",
+  "authors": ["AREKKUZZERA"],
+  "environment": "client",
+  "icon": "assets/parallaxpanorama/icon.png",
+  "entrypoints": {
+    "client": [
+      "com.example.parallaxpanorama.ParallaxPanoramaMod"
+    ],
+    "modmenu": [
+      "com.example.parallaxpanorama.client.ParallaxPanoramaModMenu"
+    ]
+  },
+  "mixins": [
+    "parallaxpanorama.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": ">=20.0.0"
+  }
+}

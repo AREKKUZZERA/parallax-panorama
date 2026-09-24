@@ -1,0 +1,7 @@
+{
+  "screen.parallaxpanorama.title": "Настройки Parallax Panorama",
+  "option.parallaxpanorama.strength": "Реакция на мышь: %s%%",
+  "option.parallaxpanorama.x_direction": "Направление по X: %s",
+  "option.parallaxpanorama.y_direction": "Направление по Y: %s",
+  "option.parallaxpanorama.reset": "Сбросить настройки"
+}
