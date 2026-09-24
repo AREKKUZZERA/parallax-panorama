@@ -1,53 +1,52 @@
 # Parallax Panorama
 
-A small client-side Fabric mod for Minecraft 26.2 that makes the main menu panorama subtly follow the mouse cursor.
+A small client-side Fabric mod for Minecraft 26.2 that makes the main menu panorama subtly move with your mouse.
 
 ## Features
 
-- Smooth mouse parallax for the main menu panorama.
-- Framerate-independent smoothing.
-- Configurable effect strength through Mod Menu.
-- Client-side only.
-- No gameplay changes.
+* Smooth mouse parallax for the main menu panorama.
+* Framerate-independent smoothing.
+* Adjustable effect strength.
+* Configurable through Mod Menu.
+* Client-side only.
+* No gameplay changes.
 
 ## Configuration
 
-Install [Mod Menu](https://modrinth.com/mod/modmenu), open **Mods → Parallax Panorama → Configure**, and adjust **Mouse reaction** from 0% to 200%.
+With [Mod Menu](https://modrinth.com/mod/modmenu) installed, open:
 
-100% is the original default strength. The setting is stored in `config/parallaxpanorama.properties`.
+**Mods → Parallax Panorama → Configure**
+
+You can adjust **Mouse reaction** from **0% to 200%**.
+
+* **0%** — disables the effect.
+* **100%** — default strength.
+* **200%** — maximum strength.
+
+The configuration is stored in:
+
+```text
+config/parallaxpanorama.properties
+```
 
 ## Requirements
 
-- Minecraft 26.2
-- Fabric Loader 0.19.3+
-- Fabric API
-- Java 25+
-- Mod Menu 20.0.0+ for the configuration screen
+* Minecraft 26.2
+* Fabric Loader 0.19.3+
+* Fabric API
+* Java 25+
+* Mod Menu 20.0.0+ *(optional, for configuration)*
 
-## Build
+## Building
 
-Use the Gradle wrapper once it has been generated for the project:
+Clone the repository and run:
 
 ```bash
 ./gradlew build
 ```
 
-The resulting JAR is placed in `build/libs/`.
-
-## Icon
-
-The Mod Menu/Fabric icon is loaded from:
+The compiled JAR will be available in:
 
 ```text
-src/main/resources/assets/parallaxpanorama/icon.png
+build/libs/
 ```
-
-Use a square PNG, preferably 128×128 or 256×256. Replace that file with your own logo without changing `fabric.mod.json`.
-
-## Author
-
-**AREKKUZZERA**
-
-## License
-
-MIT
